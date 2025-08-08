@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "BundleItemMixin",
+    "BundleItemMixin2",
     "ExampleMixin"
   ],
   "injectors": {

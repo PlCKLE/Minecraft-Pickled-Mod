@@ -27,7 +27,7 @@ public abstract class BundleItemMixin {
             } else if (itemStack.getMaxCount() == 16) {
                 count += 16;
             } else {
-                count += 1;
+                count += itemStack.getCount();
             }
         }
 
